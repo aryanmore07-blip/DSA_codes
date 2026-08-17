@@ -13,14 +13,14 @@ int main()
     printf("Enter the number of columns (max %d): ", MAX);
     scanf("%d", &n);
 
-    // Validate dimensions
+    
     if (m <= 0 || m > MAX || n <= 0 || n > MAX)
     {
         printf("Invalid matrix size! Rows and columns must be between 1 and %d.\n", MAX);
         return 1;
     }
 
-    // Input Matrix 1
+    
     printf("\nEnter the elements of Matrix 1:\n");
 
     for (int i = 0; i < m; i++)
@@ -32,7 +32,7 @@ int main()
         }
     }
 
-    // Input Matrix 2
+    
     printf("\nEnter the elements of Matrix 2:\n");
 
     for (int i = 0; i < m; i++)
@@ -44,7 +44,7 @@ int main()
         }
     }
 
-    // Menu
+    
     printf("\n----- MATRIX OPERATIONS -----\n");
     printf("1. Addition\n");
     printf("2. Subtraction\n");
